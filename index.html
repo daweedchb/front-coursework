@@ -1,0 +1,137 @@
+<!doctype html>
+<HTML>
+  <head>
+    <title>Компьютерные комплектующие</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./images/icons/computer.ico" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" data-value="top" href="#">
+          <img src="./images/icons/home_page.ico" width="40px" height="40px" alt="Главная">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Каталог
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="processor.html">Процессор</a>
+                <a class="dropdown-item" href="motherboard.html">Материнская плата</a>
+                <a class="dropdown-item" href="video_card.html">Видеокарта</a>
+                <a class="dropdown-item" href="ram.html">Оперативная память</a>
+                <a class="dropdown-item" href="storage.html">Накопитель</a>
+                <a class="dropdown-item" href="power_supply.html">Блок питания</a>
+              </div>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <!-- Hardware cards -->
+      <header class="hardware" style="background-image: url('./images/background_main.jpg')">
+        <a class="shift-correction" id="hardware"></a>
+
+        <div class="row">
+          <div class="col-sm">
+            <div class="card">
+              <a href="processor.html"><img class="card-img-top" src="images/CPU_card.webp" alt="CPU image"></a>
+              <div class="card-body">
+                <a href="processor.html"><h5 class="card-title">Процессор</h5></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm">
+            <div class="card">
+              <a href="motherboard.html"><img class="card-img-top" src="images/motherboard_card.jpg" alt="Motherboard image"></a>
+              <div class="card-body">
+                <a href="motherboard.html"><h5 class="card-title">Материнская плата</h5></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <div class="card">
+              <a href="video_card.html"><img class="card-img-top" src="images/gpu_card.jpg" alt="GPU image"></a>
+              <div class="card-body">
+                <a href="video_card.html"><h5 class="card-title">Видеокарта</h5></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm">
+            <div class="card">
+              <a href="ram.html"><img class="card-img-top" src="images/ram_card.jpg" alt="RAM image"></a>
+              <div class="card-body">
+                <a href="ram.html"><h5 class="card-title">Оперативная память</h5></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <div class="card">
+              <a href="storage.html"><img class="card-img-top" src="images/hdd_card.jpg" alt="HDD image"></a>
+              <div class="card-body">
+                <a href="storage.html"><h5 class="card-title">Накопитель</h5></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm">
+            <div class="card">
+              <a href="power_supply.html"><img class="card-img-top"
+                src="images/power_supply_card.jpg" alt="Power supply image"></a>
+              <div class="card-body">
+                <a href="power_supply.html"><h5 class="card-title">Блок питания</h5></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="buff"></div>
+      </header>
+
+    <footer class="page-footer font-small bg-dark" id="sitefooter">
+      <div class="footer-copyright text-center py-3" style="color: aliceblue;">© Сайт создан в ознакомительных целях.
+        Права на изображения и тексты принадлежат их авторам. 2020
+        <a href="https://github.com/daweedchb/coursework-front"> Github</a>
+      </div>
+    </footer>
+
+
+    <a href="#" class="scrollup">Наверх</a>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://widget.rss.app/v1/carousel.js" type="text/javascript" async></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src='js/script.js' type="text/javascript"></script>
+    <script src='js/scrollup_script.js' type="text/javascript"></script>
+    <script src='js/scroll.js' type="text/javascript"></script>
+  </body>
+</HTML>

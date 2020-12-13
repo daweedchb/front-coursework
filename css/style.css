@@ -1,0 +1,182 @@
+.navbar{
+    background:#1b1a1f;
+}
+.nav-link , .navbar-brand{
+    color: #f4f4f4;
+    cursor: pointer;
+}
+.nav-link{
+    margin-right: 1em !important;
+}
+.nav-link:hover{
+    background: #1b1a1f;
+    color: #948d87;
+}
+.navbar-collapse{
+    justify-content: flex-start;
+}
+.navbar-toggler{
+    background:#fff !important;
+}
+.navbar-brand:hover{
+    color: #948d87;
+}
+.dropdown-menu{
+    background: #1b1a1f;
+}
+.dropdown-item{
+    color: #f4f4f4;
+}
+.dropdown:hover .dropdown-menu{
+    margin-top: 0;
+    display: block;
+}
+.dropdown-item:hover{
+    background: #1b1a1f;
+    color: #948d87;
+}
+.description-main-page{
+    margin-left: 10%;
+    margin-right: 20%;
+    min-width: 80%;
+    min-height: 65vh;
+    position: relative;
+    background: #f1f1f1d0;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    overflow-wrap:break-word;
+}
+.description-about{
+    margin-left: 10%;
+    margin-right: 20%;
+    min-width: 80%;
+    position: relative;
+    top: 20%;
+    background: #151224d0;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    overflow-wrap:break-word;
+    min-height: 100vh;
+}
+.description-main-page p{
+    color:#666;
+    font-size: 25px;
+    width: 100%;
+    line-height: 1.5;
+}
+.description{
+    position: relative;
+    padding-top: 16vh;
+    padding-left: 10%;
+    max-width: 60%;
+    padding-bottom: 3%;
+    text-shadow: 1px 1px 5px #000;
+}
+.description p{
+    color: #fff;
+    font-size: 25px;
+    width: 100%;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.hardware{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.hardware h1{
+    color: #fff;
+    position: relative;
+    padding-left: 12%;
+    padding-right: 2vw;
+    padding-top: 2%;
+    max-width: 90vw;
+}
+.hardware div{
+    position: relative;
+    left: 5%;
+    max-width: 90%;
+}
+.hardware .card{
+    margin-top: 10vh;
+    min-width: 5vw;
+    max-width: 35vw;
+    text-align: center;
+}
+@media(max-width:575px){
+    .hardware .card{
+        max-width: 90vw;
+    }
+    .description{
+        max-width: 90%;
+    }
+}
+.about{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.about h1{
+    color: #fff;
+    position: relative;
+    max-width: fit-content;
+    font-weight: bold;
+}
+.about h2{
+    color: #fff;
+    position: relative;
+    max-width: fit-content;
+    font-weight: bold;
+}
+.about p{
+    color: #fff;
+    font-size: 24px;
+    max-width: 80%;
+    line-height: 1.5;
+}
+.about .row{
+    max-width: 100%;
+}
+.about li{
+    color: #fff;
+    font-size: 24px;
+    max-width: 80%;
+    line-height: 1.5;
+}
+.about dl{
+    color: #fff;
+    font-size: 24px;
+    max-width: 90%;
+    line-height: 1.5;
+}
+.about dd{
+    padding-left: 3%;
+}
+.buff{
+    height: 10vh;
+}
+.shift-correction{
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+}
+.scrollup{
+    width:50px;
+    height:50px;
+    opacity:0.3;
+    position:fixed;
+    bottom:50px;
+    right:100px;
+    display:none;
+    text-indent:-9999px;
+    background: url('../images/scrollup.jpg') no-repeat;
+}
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Raleway', sans-serif;
+    overflow-wrap:break-word;
+}

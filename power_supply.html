@@ -1,0 +1,131 @@
+<!doctype html>
+<HTML>
+    <head>
+        <meta charset="UTF-8">
+        <title>Блок питания</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="./images/icons/power_supply.ico" type="image/x-icon">
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+      
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top ">
+            <a class="navbar-brand" href="index.html">
+                <img src="./images/icons/home_page.ico" width="40px" height="40px" alt="Главная">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Каталог
+                        </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="processor.html">Процессор</a>
+                            <a class="dropdown-item" href="motherboard.html">Материнская плата</a>
+                            <a class="dropdown-item" href="video_card.html">Видеокарта</a>
+                            <a class="dropdown-item" href="ram.html">Оперативная память</a>
+                            <a class="dropdown-item" href="storage.html">Накопитель</a>
+                            <a class="dropdown-item" data-value="top" href="#">Блок питания</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-value="about" href="#">Описание</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
+        <!-- Main text -->
+        <header class="about" style="background-image: url('./images/headerback_power_supply.jpg')">
+            <a class="shift-correction" id="top"></a>
+                <div class="description text-left">
+                    <h1><font color="#fff", size="20px"><b>Блок питания — </b></font></h1>
+                    <p>устройство, обеспечивающее питание всех компонентов, подключенных к материнской плате, включая ее саму.</p>
+                </div>
+        </header>
+
+        <!-- Main conten -->
+        <header class="about" style="background-image: url('./images/background_power_supply.jpg');">
+            <a class="shift-correction" id="about"></a>
+            <div class="buff"></div>
+            <div class="description-about">
+                <h1><font size="20px">Компоненты</font></h1>
+                <dl class="dl-horizontal">
+                    <dt>Входные цепи</dt>
+                    <dd>Сюда входят такие блоки:
+                        <li>Входной фильтр, который отсекает импульсные помехи, не давая им распространяться далее.
+                            Также он снижает разряд конденсаторов, который возникает при включении устройства в сеть.</li>
+                        <li>Корректор мощности снижает нагрузку на питающие цепи.</li>
+                        <li>Переменное напряжение постоянно трансформирует выпрямительный мост.</li>
+                        <li>Пульсации выпрямленного напряжения сглаживает конденсаторный фильтр.</li>
+                        <li>БП небольшой мощности, который выдает +5 В для поддержки дежурного режима материнки и +12
+                            В для микросхемы преобразователя.</li>
+                    </dd>
+
+                    <dt>Преобразователь</dt>
+                    <dd>Состоит из следующих элементов:
+                        <li>Двух биполярных транзисторов, которые используются в качестве полумостового преобразователя.</li>
+                        <li>Схемы защиты от изменения питающих напряжений. В этом качестве обычно выступает специфическая
+                            микросхема, например SG6105 или UC</li>
+                        <li>Высокочастотного импульсного трансформатора, формирующий напряжения требуемого номинала.</li>
+                        <li>Цепей обратной связи, поддерживающих стабильное напряжение на выходе БП.</li>
+                        <li>Формирователя напряжения, реализованного на базе отдельного операционного усилителя.</li>
+                    </dd>
+
+                    <dt>Выходные цепи</dt>
+                    <dd>Для их нормальной работы необходимы такие составляющие:
+                        <li>Выходные выпрямители, которые используются для подачи напряжения 5 В и 12 В с
+                            положительными и отрицательными значениями, с помощью одних и тех же обмоток трансформатора.</li>
+                        <li>Дроссель групповой стабилизации. Сглаживает импульсы и перераспределяет энергию между остальными цепями.</li>
+                        <li>Фильтрующие конденсаторы, интегрирующие импульсы, необходимые для получения номинальных напряжений.</li>
+                        <li>Нагрузочные резисторы, обеспечивающие безопасную работу на холостом ходу.</li>
+                    </dd>
+
+                    <dd>
+                        Эффективность устройства зависит не только от принципиальной схемы – они в большинстве
+                        случаев унифицированы, а какие-то революционные нововведения внедряются редко.
+                    </dd>
+
+                    <dd>
+                        Во многом на КПД и срок эксплуатации блока питания влияет качество комплектующих,
+                        которое может отличаться у разных производителей – от откровенного контрафакта у бюджетных
+                        моделей, сделанных в полукустарных условиях, до качественных микросхем, соответствующих всем
+                        принятым стандартам, которые используются в схемах вызывающих доверие брендов.
+                    </dd>
+                </dl>
+            </div>
+            <div class="buff"></div>
+        </header>
+
+        <footer class="page-footer font-small bg-dark" id="sitefooter">
+          <div class="footer-copyright text-center py-3" style="color: aliceblue;">© Сайт создан в ознакомительных целях.
+            Права на изображения и тексты принадлежат их авторам. 2020
+            <a href="https://github.com/daweedchb/coursework-front"> Github</a>
+          </div>
+        </footer>
+
+        <a href="#" class="scrollup">Наверх</a>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://widget.rss.app/v1/carousel.js" type="text/javascript" async></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src='js/script.js' type="text/javascript"></script>
+        <script src='js/scrollup_script.js' type="text/javascript"></script>
+        <script src='js/scroll.js' type="text/javascript"></script>
+</HTML>
